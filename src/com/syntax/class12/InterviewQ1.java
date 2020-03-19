@@ -29,6 +29,16 @@ public class InterviewQ1 {
 		word=word.substring(wordLength+1);
 		System.out.println("Word 1 is now "+word);
 		System.out.println("Word 2 is now "+word2);
+		
+		String str1="Day";
+		String str2="Night";
+		
+		str1=str1+str2;
+		str2=str1.substring(0,str1.length()-str2.length());
+		str1=str1.substring(str2.length());
+		
+		System.out.println("String 2 is now "+str2);
+		System.out.println("String 1 is now "+str1);
 	}
 	
 }
