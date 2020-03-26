@@ -12,6 +12,8 @@ public class StaticKeywordTest {
 		sk.color="red";
 		sk.memory=128;
 		sk.displaySpecs();
+		
+		
 	}
 	
 	
