@@ -15,6 +15,12 @@ public class TestClass {
 		dog1.eat();
 		dog1.sleep();
 		
+		Animals animal1=new Animals();
+		animal1.color="Any";
+		animal1.size="Any";
+		//animal1.breed="Any"; -->as a parent, cannot access features from the child class
+		
+		
 	}
 
 }

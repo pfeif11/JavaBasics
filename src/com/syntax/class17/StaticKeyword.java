@@ -7,7 +7,7 @@ public class StaticKeyword {
 	String color;
 	int memory;
 	
-	static String brand;
+	static String brand="iPhone";
 	static boolean touchScreen;
 	
 	//we have to specify return type, name, and parameters or no parameters
@@ -15,11 +15,11 @@ public class StaticKeyword {
 		System.out.println("We are building "+brand+" with touchscreen= "+touchScreen);
 	}
 	void displaySpecs() {
-		System.out.println("We build phone with "+memory+"GB memory in "+color+" color");
+		System.out.println("We build phone with "+memory+"GB memory in "+color+" color"+brand);
 	}
 	public static void main(String[] args) {
 		//accessing static variables in a static way
-		brand="iPhone";
+		//brand="iPhone";
 		touchScreen=true;
 		//accessing instance variables through the instance if the class
 		StaticKeyword obj=new StaticKeyword();
