@@ -23,7 +23,7 @@ public class WriteToExcel {
 		sheet1.getRow(0).createCell(5).setCellValue("Country");
 		sheet1.createRow(3).createCell(0).setCellValue("Hichem");
 		
-		Sheet customSheet=book.createSheet("TestSheet");
+		Sheet customSheet=book.createSheet("TestSheet1");
 		
 		FileOutputStream fos=new FileOutputStream(filePath);
 		
