@@ -21,7 +21,7 @@ public class HW1 {
 		
 		if(prop.getProperty("browser").equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
-			WebDriver driver-new ChromeDriver();
+		//	WebDriver driver-new ChromeDriver();
 			
 		}
 		
